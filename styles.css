@@ -1,12 +1,20 @@
+/*
+ * Principios CRAP Aplicados:
+ * 1. Contraste (C): Paleta Deep Teal (#008080) y Gold (#FFD700). Contraste de tamaño en botón Enviar.
+ * 2. Alineación (A): Estructura centrada de página, etiquetas de formulario a la izquierda y botones a la derecha.
+ * 3. Repetición (R): Imagen fentaSniker.jpg repetida como fondo en el body.
+*/
+
 body {
     display: flex;
     flex-direction: column; 
     align-items: center;    
     padding-top: 0;
     
-    /* REPETICIÓN APLICADA - RUTA CORREGIDA CON BARRAS DIAGONALES (/) */
-    background-image: url('C:/Users/FCCA/Downloads/A5Article/fentaSniker.jpg'); 
-¿    background-size: 150px; /* Tamaño ajustado para un patrón visible */
+    /* RUTA CORREGIDA: Ahora apunta a la subcarpeta A5Article/ */
+    background-image: url('A5Article/fentaSniker.jpg'); 
+    background-repeat: repeat; 
+    background-size: 150px; /* Tamaño ajustado para un patrón visible */
     background-color: #f4f4f9; 
     
     font-family: Arial, sans-serif;
@@ -120,7 +128,7 @@ footer {
     padding: 20px;
     margin: 30px auto;
     background-color: #e0ffff;
-	de texto */
+	/* El comentario en esta línea fue corregido para que el CSS sea válido. */
     border-radius: 6px;
 }
 
